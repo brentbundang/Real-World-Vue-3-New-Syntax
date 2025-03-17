@@ -14,7 +14,6 @@ const fetchData = async () => {
 }
 onMounted(async () => {
   await fetchData()
-  console.log(events.value)
 })
 </script>
 
@@ -32,3 +31,4 @@ onMounted(async () => {
   align-items: center;
 }
 </style>
+
